@@ -16,7 +16,8 @@
 核心功能：
      不同渠道不同类型的消息发送，消息的全链路生命周期追踪
 
-![image](https://github.com/lx5555/mePush/assets/71442208/21034985-f7c0-4a76-ad47-ee2a8db09a72)
+![image](https://github.com/lx5555/mePush/assets/71442208/53258233-432d-40be-8772-6d763df74b53)
+
 
 
 技术细节（待补充）：
