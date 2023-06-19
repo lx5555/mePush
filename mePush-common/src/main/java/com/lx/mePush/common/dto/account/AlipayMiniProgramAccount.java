@@ -1,4 +1,4 @@
-package com.java3y.austin.common.dto.account;
+package com.lx.mePush.common.dto.account;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
