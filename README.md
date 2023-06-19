@@ -25,9 +25,17 @@
 
 **如何使用：**
 
-创建账号：
+创建账号（选择渠道！！！接入姿势查看对应官方文档1.qq邮箱开启POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务即可 2.短信去对应渠道官网开通服务：https://console.cloud.tencent.com/smsv2 3.企业微信：https://developer.work.weixin.qq.com/document/path/91201）：
 
+![image](https://github.com/lx5555/mePush/assets/71442208/636e0f00-ddc3-4bdc-b0e9-1b67a4156b87)
 
+创建模板（选择刚才创建的账号作为发送账号）：
+
+![image](https://github.com/lx5555/mePush/assets/71442208/26559425-84d6-4e14-81db-8ff2b66c5a9d)
+
+填写发送账号，标题和文案
+
+![image](https://github.com/lx5555/mePush/assets/71442208/37587c61-6ab6-46b4-aa64-298649302649)
 
 
 
