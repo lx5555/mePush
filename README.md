@@ -2,7 +2,9 @@
                                       
 项目演示地址：http://8.130.126.21:3000/
 
+
 ## 消息推送平台mePush介绍
+
 
 **背景(只要有消息发送需求就可以用这个平台)：**
 
@@ -12,11 +14,20 @@
 
 ![image](https://github.com/lx5555/mePush/assets/71442208/0d3917b3-362e-4ede-b389-7707ff583634)
 
+
 **技术栈：** Springboot, MyBatis, Apollo, Kafka, Redis, DynamicTp, Flink, GrayLog, xxl-job
+
 
 **核心功能：** 不同渠道不同类型的消息发送，消息的全链路生命周期追踪
 
 ![image](https://github.com/lx5555/mePush/assets/71442208/53258233-432d-40be-8772-6d763df74b53)
+
+
+**如何使用：**
+
+创建账号：
+
+
 
 
 
