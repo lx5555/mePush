@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
 
 
 /**
- * 撤回接口
+ * 撤回接口, 按模板维度
  *
- * @author 3y
+ * @author lx
  */
 @Service
 public class RecallServiceImpl implements RecallService {
