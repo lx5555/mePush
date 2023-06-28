@@ -1,23 +1,23 @@
-package com.java3y.austin.service.api.impl.action;
+package com.lx.mePush.service.api.impl.action;
 
 import cn.hutool.core.collection.CollUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.google.common.base.Throwables;
-import com.java3y.austin.common.enums.RespStatusEnum;
-import com.java3y.austin.common.vo.BasicResultVO;
-import com.java3y.austin.service.api.enums.BusinessCode;
-import com.java3y.austin.service.api.impl.domain.SendTaskModel;
-import com.java3y.austin.support.mq.SendMqService;
-import com.java3y.austin.support.pipeline.BusinessProcess;
-import com.java3y.austin.support.pipeline.ProcessContext;
+import com.lx.mePush.common.enums.RespStatusEnum;
+import com.lx.mePush.common.vo.BasicResultVO;
+import com.lx.mePush.service.api.enums.BusinessCode;
+import com.lx.mePush.service.api.impl.domain.SendTaskModel;
+import com.lx.mePush.support.mq.SendMqService;
+import com.lx.mePush.support.pipeline.BusinessProcess;
+import com.lx.mePush.support.pipeline.ProcessContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 /**
- * @author 3y
+ * @author lx
  * 将消息发送到MQ
  */
 @Slf4j
