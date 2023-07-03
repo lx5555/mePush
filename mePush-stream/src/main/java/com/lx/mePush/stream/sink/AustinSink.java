@@ -15,9 +15,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * 消息进 redis/hive
+ * 消息进 redis/hive，目前是存入redis
  *
- * @author 3y
+ * @author lx
  */
 @Slf4j
 public class AustinSink implements SinkFunction<AnchorInfo> {
