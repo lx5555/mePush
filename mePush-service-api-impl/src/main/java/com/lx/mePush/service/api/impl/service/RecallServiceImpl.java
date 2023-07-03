@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 
 /**
- * 撤回接口, 按模板维度
+ * 撤回接口, 按模板维度，目前只对钉钉有效
  *
  * @author lx
  */
