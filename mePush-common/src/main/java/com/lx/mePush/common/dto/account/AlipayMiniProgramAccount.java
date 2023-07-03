@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author jwq
- * 支付宝小程序订阅消息账号配置
+ * 支付宝小程序订阅消息账号配置，这里目前是这样，可以参考官方文档
  */
 @Data
 @Builder
