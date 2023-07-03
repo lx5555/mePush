@@ -15,7 +15,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * 消息进 redis/hive，目前是存入redis
+ * 消息进 redis/hive，为了exactly-once语义优化成两阶段提交
  *
  * @author lx
  */
