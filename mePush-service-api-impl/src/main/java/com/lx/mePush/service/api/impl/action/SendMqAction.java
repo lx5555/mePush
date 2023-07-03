@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author lx
- * 将消息发送到MQ
+ * 将消息发送到kafka
  */
 @Slf4j
 @Service
