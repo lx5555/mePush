@@ -38,13 +38,13 @@ public class mePushBootStrap {
         /**
          * 3. 数据转换处理，状态<失败原因，从而分析业务处理参数是否存在问题>
          */
-        SingleOutputStreamOperator<AnchorInfo> dataStream1 = kafkaSource.flatMap(new AustinFlatMapFunction()).name(AustinFlinkConstant.FUNCTION_NAME);
+        SingleOutputStreamOperator<AnchorInfo> dataStream_fail = kafkaSource.flatMap(new AustinFlatMapFunction()).name(AustinFlinkConstant.FUNCTION_NAME);
 
         /**
          * 4. 将实时数据多维度写入Redis(已实现)，离线数据写入hive(未实现)
          */
         dataStream.addSink(new AustinSink()).name(AustinFlinkConstant.SINK_NAME);
-        dataStream1.addSink(new AustinSink()).name(AustinFlinkConstant.SINK_NAME);
+        dataStream_fail.addSink(new AustinSink()).name(AustinFlinkConstant.SINK_NAME);
         env.execute(AustinFlinkConstant.JOB_NAME);
 
     }
