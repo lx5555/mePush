@@ -1,10 +1,10 @@
-package com.java3y.austin.stream;
+package com.lx.mePush.stream;
 
-import com.java3y.austin.common.domain.AnchorInfo;
-import com.java3y.austin.stream.constants.AustinFlinkConstant;
-import com.java3y.austin.stream.function.AustinFlatMapFunction;
-import com.java3y.austin.stream.sink.AustinSink;
-import com.java3y.austin.stream.utils.MessageQueueUtils;
+import com.lx.mePush.common.domain.AnchorInfo;
+import com.lx.mePush.austin.stream.constants.AustinFlinkConstant;
+import com.lx.mePush.austin.stream.function.AustinFlatMapFunction;
+import com.lx.mePush.austin.stream.sink.AustinSink;
+import com.lx.mePush.austin.stream.utils.MessageQueueUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.connector.kafka.source.KafkaSource;
@@ -15,10 +15,10 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 /**
  * flink启动类
  *
- * @author 3y
+ * @author lx
  */
 @Slf4j
-public class AustinBootStrap {
+public class mePushBootStrap {
 
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
