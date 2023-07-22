@@ -28,27 +28,26 @@
 - com.tank.xxljob-master：定时任务调度器
 
 
-## 消息推送平台mePush介绍
 
+## 背景（业务范围）
+只要有发送消息的需求，就可以使用本项目，具体场景如下：
 
-**背景(只要有消息发送需求就可以用这个平台)：**
-
-    1.广告商投放广告
-    2.验证码短信下发
-    3.通知类，警告类信息下发，例如某用户关注的主播开播了，系统警告线程池线程数达到阈值
+  1.广告商投放广告
+  2.验证码短信下发
+  3.通知类，警告类信息下发，例如某用户关注的主播开播了，系统警告线程池线程数达到阈值
 
 ![image](https://github.com/lx5555/mePush/assets/71442208/0d3917b3-362e-4ede-b389-7707ff583634)
 
 
-**技术栈：** Springboot, MyBatis, Apollo, Kafka, Redis, DynamicTp, Flink, GrayLog, xxl-job
 
-
-**核心功能：** 不同渠道不同类型的消息发送，消息的全链路生命周期追踪
+## 核心功能：
+1.不同渠道不同类型的消息发送
+2.消息的全链路生命周期追踪
 
 ![image](https://github.com/lx5555/mePush/assets/71442208/53258233-432d-40be-8772-6d763df74b53)
 
 
-**如何使用：**
+## 如何使用：
 
 创建账号（选择渠道！！！接入姿势查看对应官方文档1.qq邮箱开启POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务即可 2.短信去对应渠道官网开通服务：https://console.cloud.tencent.com/smsv2 3.企业微信：https://developer.work.weixin.qq.com/document/path/91201）：
 
@@ -62,9 +61,20 @@
 
 ![image](https://github.com/lx5555/mePush/assets/71442208/37587c61-6ab6-46b4-aa64-298649302649)
 
+## 如何部署
+**项目配置文件在mePush-web下面的application.properties，你只需要安装对应软件，更改配置文件即可启动**
 
+**Level1：发送消息功能**
+你需要部署MySql5.7.x + Redis + Kafka
 
-**设计思路（待补充）：**
+**Level2：消息全链路追踪**
+你需要部署Flink
+参考：https://blog.csdn.net/momo898821/article/details/105579464
+
+**Level3：定时任务，动态线程池。。。**
+你需要部署xxl-job 以及 Apollo
+
+## 设计思路（欢迎补充）：
 
 1.消息隔离
 
@@ -74,6 +84,6 @@
 
 两种角度：用户角度（给用户反馈为什么消息发送失败） + 模板角度（广告曝光量）
 
-3.补偿机制
-
+3.消息发送可靠性
+限流，黑名单，渠道负载，消息重试，消息丢失等
 
