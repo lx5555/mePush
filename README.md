@@ -16,24 +16,16 @@
 
 ##项目演示地址：http://8.130.126.21:3000/
 
-##项目结构：
-├── blog                           # 博客
-├── docs                           # 文档/笔记
-├── data                           # 项目/导航               # 资源导航
-├── i18n                           # 国际化
-├── src
-│   ├── components                 # 组件
-│   ├── css                        # 自定义CSS
-│   ├── pages                      # 自定义页面
-│   ├── plugin                     # 自定义插件
-│   └── theme                      # 自定义主题组件
-├── static                         # 静态资源文件
-│   └── img                        # 静态图片
-├── docusaurus.config.js           # 站点的配置信息
-├── sidebars.js                    # 文档的侧边栏
-├── package.json
-├── tsconfig.json
-└── yarn.lock
+## 项目结构
+- mePush-common：公共方法
+- mePush-cron：定时任务执行器
+- mePush-handler：MQ消费者，业务处理
+- mePush-service-api-impl：接入层实现类
+- mePush-service-api：接入层
+- com.tank.stream：数据清洗
+- com.tank.support：MQ提供者，业务处理
+- com.tank.web：SpringMVC
+- com.tank.xxljob-master：定时任务调度器
 
 
 ## 消息推送平台mePush介绍
