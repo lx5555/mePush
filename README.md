@@ -2,14 +2,15 @@
                                       
 <p align="center">
   <a href="#项目文档"><img src="https://img.shields.io/badge/SpringBoot-2.5.6-green.svg" alt="SpringBoot版本"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/MySQL-5.7.x-orange.svg" alt="MySQL版本"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/maven-3.6.x-red.svg" alt="maven版本"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/ORM-SpringData JPA-blue.svg" alt="ORM框架"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/MySQL-5.7.x-green.svg" alt="MySQL版本"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/maven-3.6.x-green.svg" alt="maven版本"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/ORM-MyBatis-green.svg" alt="ORM框架"></a>
   <a href="#项目文档"><img src="https://img.shields.io/badge/Cache-Redis-orange.svg" alt="ORM框架"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式定时任务-xxljob-green.svg" alt="分布式定时任务"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式配置中心-Apollo & Nacos-blue.svg" alt="分布式配置中心"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式消息队列-Kafka & RabbmitMQ & RocketMQ-red.svg" alt="分布式消息队列"></a>
   <a href="#项目文档"><img src="https://img.shields.io/badge/分布式日志采集-Graylog-orange.svg" alt="分布式日志采集"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式定时任务-xxljob-orange.svg" alt="分布式定时任务"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/动态线程池-DynamicTp-orange.svg" alt="动态线程池"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式配置中心-Apollo-red.svg" alt="分布式配置中心"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式消息队列-Kafka-red.svg" alt="分布式消息队列"></a>
   <a href="#项目文档"><img src="https://img.shields.io/badge/分布式计算引擎-Flink-red.svg" alt="计算引擎"></a>
 </p>
 
