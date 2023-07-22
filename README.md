@@ -63,16 +63,19 @@
 
 ## 如何部署
 **项目配置文件在mePush-web下面的application.properties，你只需要安装对应软件，更改配置文件即可启动**
+**启动mePush-web即可**
 
 **Level1：发送消息功能**
 你需要部署MySql5.7.x + Redis + Kafka
+参考：https://blog.csdn.net/weixin_42207486/article/details/80647802
 
 **Level2：消息全链路追踪**
-你需要部署Flink
+你需要部署Flink，并且提交stream代码
 参考：https://blog.csdn.net/momo898821/article/details/105579464
 
 **Level3：定时任务，动态线程池。。。**
 你需要部署xxl-job 以及 Apollo
+参考：https://www.jianshu.com/p/09ad73aece33
 
 ## 设计思路（欢迎补充）：
 
