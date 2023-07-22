@@ -6,11 +6,11 @@
   <a href="#项目文档"><img src="https://img.shields.io/badge/maven-3.6.x-green.svg" alt="maven版本"></a>
   <a href="#项目文档"><img src="https://img.shields.io/badge/ORM-MyBatis-green.svg" alt="ORM框架"></a>
   <a href="#项目文档"><img src="https://img.shields.io/badge/Cache-Redis-orange.svg" alt="ORM框架"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式日志采集-Graylog-orange.svg" alt="分布式日志采集"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式定时任务-xxljob-orange.svg" alt="分布式定时任务"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/日志采集-Graylog-orange.svg" alt="分布式日志采集"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/定时任务-xxljob-orange.svg" alt="分布式定时任务"></a>
   <a href="#项目文档"><img src="https://img.shields.io/badge/动态线程池-DynamicTp-orange.svg" alt="动态线程池"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式配置中心-Apollo-red.svg" alt="分布式配置中心"></a>
-  <a href="#项目文档"><img src="https://img.shields.io/badge/分布式消息队列-Kafka-red.svg" alt="分布式消息队列"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/配置中心-Apollo-red.svg" alt="分布式配置中心"></a>
+  <a href="#项目文档"><img src="https://img.shields.io/badge/消息队列-Kafka-red.svg" alt="分布式消息队列"></a>
   <a href="#项目文档"><img src="https://img.shields.io/badge/分布式计算引擎-Flink-red.svg" alt="计算引擎"></a>
 </p>
 
@@ -32,9 +32,9 @@
 ## 背景（业务范围）
 只要有发送消息的需求，就可以使用本项目，具体场景如下：
 
-  1.广告商投放广告
-  2.验证码短信下发
-  3.通知类，警告类信息下发，例如某用户关注的主播开播了，系统警告线程池线程数达到阈值
+  **1.广告商投放广告**
+  **2.验证码短信下发**
+  **3.通知类，警告类信息下发，例如某用户关注的主播开播了，系统警告线程池线程数达到阈值**
 
 ![image](https://github.com/lx5555/mePush/assets/71442208/0d3917b3-362e-4ede-b389-7707ff583634)
 
